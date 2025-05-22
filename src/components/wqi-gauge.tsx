@@ -35,7 +35,7 @@ export function WQIGauge({ value }: WQIGaugeProps) {
         <div className="text-xl font-medium text-muted-foreground">{getLabel()}</div>
       </div>
 
-      <Progress value={progress} className="h-4" indicatorClassName={getColor()} />
+      <Progress value={progress} className="h-4"  />
 
       <div className="grid grid-cols-3 text-center text-sm">
         <div className="text-red-500 font-medium">Poor</div>
